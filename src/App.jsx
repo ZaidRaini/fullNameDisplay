@@ -22,7 +22,7 @@ function App() {
           <label htmlFor="last">Last Name : </label>
           <input type="text" id="last" name="last" required />
         </div>
-        <button>Submit</button>
+        <button type="submit">Submit</button>
       </form>
       {fullName && <p>Full Name : {fullName}</p>}
     </div>
