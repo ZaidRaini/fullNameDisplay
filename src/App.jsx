@@ -8,7 +8,7 @@ function App() {
     e.preventDefault();
     const FirstName = e.target.first.value;
     const LastName = e.target.last.value;
-    setFullName(`${FirstName} ${LastName}`);
+    setFullName(`Full Name : ${FirstName} ${LastName}`);
   };
   return (
     <div className="App">
@@ -24,7 +24,7 @@ function App() {
         </div>
         <button type="submit">Submit</button>
       </form>
-      {fullName && <p>Full Name : {fullName}</p>}
+      <p>{fullName}</p>
     </div>
   );
 }
